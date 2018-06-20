@@ -1,0 +1,309 @@
+﻿body {
+    direction: rtl;
+    font-family: 'Varela Round', sans-serif;
+    
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+}
+
+/*#siteheader 
+{
+    height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;
+    
+}*/
+
+#logodiv
+{
+    display:inline-block;
+    color:white;
+    border:5px solid black;
+    float:right;
+    background-color:transparent;
+    /*margin-top:10px;*/
+
+}
+
+#logoh1 {
+    margin-bottom: -5px;
+    color: white !important;
+    position: absolute;
+    z-index: 1;
+}
+
+#logop {
+    color: white !important;
+    position: absolute;
+    z-index: 1;
+    margin-top:39px;
+}
+
+#mainNav {
+    /*height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;*/
+    font-family: 'Varela Round', sans-serif;
+    display: inline-block;
+}
+
+#mainNav ul /*העלמת התבליטים של הרשימה (הבולטים*/
+   {
+       list-style:none;
+   }
+
+
+#mainNav ul li /*קביעת מבנה התפריט (אנכי או אופקי)*/ {
+    display: inline-block;
+    float: right;
+   
+}
+
+    #mainNav ul li a /*עיצוב פרטי התפריט*/ {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+    }
+
+        #mainNav ul li a:hover
+        {
+            background-color: white;
+            color:royalblue;
+            font-weight:bold;
+        }
+
+     #mainNav ul li a:active 
+        {
+            background-color: white;
+            color: dodgerblue;
+        }
+
+    #mainNav ul li ul
+    {
+        display: none;
+        position: absolute;
+    }
+
+    #mainNav ul li ul li a
+    {
+       
+        width:140px;
+    }
+
+
+    #mainNav ul li:hover > ul {
+        display: block;
+        width: 140px;
+        align-content: center;
+        padding-right: 0px;
+        margin: 0px;
+        color: white;
+        background-color: royalblue;
+        font-weight: bold;
+    }
+
+
+#mainNav ul li #logoNav {
+    width: 190px;
+    padding-top: 0;
+}
+
+        #mainNav ul li #logoNav:hover
+        {
+            background-color:none;
+            color:white;
+        }
+
+        #mainNav ul li #logoNav h1
+        {
+            margin-right: -82px;
+            padding-top: 16px;
+            margin-bottom: -11px;
+        }
+
+    #mainNav ul li a #logoNav h1:hover
+    {
+        background-color: none;
+        color: white;
+    }
+
+   #mainNav ul li  #logoNav p
+   {
+       margin-right:-75px;
+   }
+
+
+.na 
+{
+    cursor: not-allowed;
+    color: black;
+}
+
+
+
+
+#navheader 
+{
+    width:auto;
+    height:87px;
+    background-image: url('../images/new banner.jpg');
+}
+
+.class
+{
+    padding-top:45px;
+}
+
+#banner
+{
+    padding-top:45px;
+}
+
+#secondnav
+{
+    padding-top:45px;
+}
+
+#secondnav nav
+{
+    width:960px;
+}
+
+#secondnav ul
+{
+    list-style: none;
+    padding: 0;
+}
+
+
+
+#secondnav nav ul li
+{
+    display:inline-block;
+    margin-bottom:30px;
+}
+
+    /*#secondnav nav ul li #willLIs {
+        background-image: url('../images/contract icon.png');
+        background-repeat: no-repeat;
+        background-size: 202px;
+        background-position-y: -22px;
+        background-position-x: -22px;
+        display: inline-block;
+        width: 160px;
+        height: 160px;
+        padding-top: 180px;
+    }*/
+
+    #secondnav nav ul li a {
+        display: inline-block;
+        width: 160px;
+        height: 150px;
+        padding-top: 180px;
+        margin-right: 73px;
+        margin-left: 73px;
+        padding-right:35px;
+    }
+
+    #secondnav nav ul li #will-li {
+        background-image: url('../images/contract icon.png');
+        background-repeat: no-repeat;
+        background-size: 202px;
+        background-position-y: -22px;
+        background-position-x: -22px;
+        
+    }
+
+    #secondnav nav ul li #money-li {
+        background-image: url('../images/money icon copy.png');
+        background-repeat: no-repeat;
+        background-size: 202px;
+        background-position-y: -22px;
+        background-position-x: -22px;
+       
+    }
+
+    #secondnav nav ul li #greeve-il {
+        background-image: url('../images/blue david.png');
+        background-repeat: no-repeat;
+        background-size: 155px;
+        background-position-y: 0px;
+        background-position-x: 0px;
+        display: inline-block;
+       
+    }
+
+    #secondnav nav ul li #flight-li
+    {
+    background-image:url('../images/airplane icon.png');
+    background-repeat: no-repeat;
+    background-size: 202px;
+    background-position-y: -22px;
+    background-position-x: -22px;
+    margin-right:230px;
+    }
+
+    #secondnav nav ul li #pray-li 
+    {
+        background-image:url('../images/book icon.png');
+        background-repeat: no-repeat;
+        background-size: 202px;
+        background-position-y: -22px;
+        background-position-x: -22px;      
+    }
+
+    #mainFooter {
+    margin-right:auto;
+    height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    #mainFooter ul 
+    {
+        list-style: none;
+    }
+
+    #mainFooter ul li 
+    {
+            display: inline-block;
+            float: right;
+        }
+
+   #mainFooter ul li a 
+    {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        padding-top: 34px;
+    }
+    
+   .quick
+   {
+       text-decoration:none;
+       color:black;
+   }
+.navbar {
+    background-image: url('../images/new banner.jpg');
+    height: 87px;
+    width: 960px;
+}
+
+#navbarDropdown 
+{
+    color: white !important;
+}
+
+.navbar-nav
+{
+    margin-right:220px;
+}

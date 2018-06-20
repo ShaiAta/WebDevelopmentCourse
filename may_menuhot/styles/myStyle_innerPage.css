@@ -1,0 +1,287 @@
+﻿body 
+{
+    direction:rtl;
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+}
+
+#siteheader 
+{
+    height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;
+    
+}
+
+#logodiv
+{
+    display:inline-block;
+    color:white;
+    margin-right:10px;
+
+}
+
+#logoh1
+{
+    margin-bottom:-5px;
+}
+/*****************************************************************************************/
+#mainNav {
+    /*height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;*/
+    font-family: 'Varela Round', sans-serif;
+    display:inline-block;
+}
+
+#mainNav ul /*העלמת התבליטים של הרשימה (הבולטים*/
+   {
+       list-style:none;
+   }
+
+
+#mainNav ul li /*קביעת מבנה התפריט (אנכי או אופקי)*/ {
+    display: inline-block;
+    float: right;
+}
+
+    #mainNav ul li a /*עיצוב פרטי התפריט*/ {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+    }
+
+        #mainNav ul li a:hover 
+        {
+            background-color: white;
+            color:royalblue;
+            font-weight:bold;
+        }
+
+     #mainNav ul li a:active 
+        {
+            background-color: white;
+            color: dodgerblue;
+        }
+
+    #mainNav ul li ul
+    {
+        display: none;
+        position: absolute;
+    }
+
+    #mainNav ul li ul li a
+    {
+       
+        width:140px;
+    }
+
+
+    #mainNav ul li:hover > ul {
+        display: block;
+        width: 140px;
+        align-content: center;
+        padding-right: 0px;
+        margin:0px;
+        color:white;
+        background-color:#29466e;
+        font-weight:bold;
+    }
+
+    #mainNav ul li #logoNav
+    {
+        width: 190px;
+        padding-top: 0;
+    }
+
+        #mainNav ul li #logoNav:hover
+        {
+            background-color:none;
+            color:white;
+        }
+
+        #mainNav ul li #logoNav h1
+        {
+            margin-right: -82px;
+            padding-top: 16px;
+            margin-bottom: -11px;
+        }
+
+    #mainNav ul li a #logoNav h1:hover
+    {
+        background-color: none;
+        color: white;
+    }
+
+   #mainNav ul li  #logoNav p
+   {
+       margin-right:-75px;
+   }
+
+
+.na 
+{
+    cursor: not-allowed;
+    color: lightgrey;
+}
+
+
+#navheader 
+{
+    width:auto;
+    height:87px;
+    background-image: url('../images/new banner.jpg');
+}
+
+.class
+{
+    padding-top:45px;
+}
+
+#banner
+{
+    padding-top:45px;
+}
+/********************************************************************************************/
+    #mainFooter {
+    margin-right:auto;
+    height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    #mainFooter ul 
+    {
+        list-style: none;
+    }
+
+    #mainFooter ul li 
+    {
+            display: inline-block;
+            float: right;
+        }
+
+   #mainFooter ul li a 
+    {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        padding-top: 34px;
+    }
+
+
+.process {
+    font-family: 'Varela Round', sans-serif;
+}
+/************************************************************************************************/
+
+/*.btn btn-primary
+{
+    width:800px;
+    background-color:dodgerblue;
+}*/
+
+.panel-title /*הכותרת של הטאבים*/
+{ 
+    font-family: 'Varela Round', sans-serif;
+    font-size:16pt;
+}
+
+.panel-heading {
+    /*border-radius: 20px;*/
+    margin-right: 5px;
+    /*margin-top:40px;*/
+    margin: 10px;
+    height: 50px;
+}
+
+.panel-body {
+    margin-top: -10px;
+    margin-right: 25px;
+    margin-bottom: 15px;
+}
+
+.title { /*הקישורים של הכותרות בטאבים*/
+    color: white;
+    font-size: larger;
+    text-align:center;
+}
+
+    .title:hover {
+        background-color:white;
+        color:#29466e;
+        text-decoration:none;
+    }
+
+.part {
+    font-size: 36px;
+}
+
+.bg-danger {
+    background-color: #29466e !important;
+    text-align: center;
+    width:960px;
+    padding-top:8px;
+}
+
+.answer-blue {
+    /*border: 2px solid #29466e;*/
+    width:960px;
+    margin-right:10px;
+}
+
+.answer {
+    margin-right: 10px;
+    margin-bottom: 2px;
+    font-size: medium;
+    
+}
+
+.text-danger {
+    color: #BC2E3B !important;
+    margin-right: 60px;
+}
+
+
+
+.q:hover
+{
+        color:#29466e;
+        background-color:white;
+        text-decoration:none;
+}
+
+p
+{
+    margin-bottom:0rem;
+}
+
+.subject {
+    padding-top: 10px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.descreption {
+    margin-bottom: 20px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+#list-7 ul li
+{
+    margin-bottom:20px;
+}
+ .starter
+{
+    color:purple;
+    font-weight:bold;
+    font-size:14pt;
+}

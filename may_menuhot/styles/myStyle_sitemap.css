@@ -1,0 +1,189 @@
+﻿body 
+{
+    direction:rtl;
+}
+
+#container{
+    width:960px;
+    margin:0 auto;
+}
+
+#siteheader 
+{
+    height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;
+    
+}
+
+#logodiv
+{
+    display:inline-block;
+    color:white;
+    margin-right:10px;
+
+}
+
+#logoh1
+{
+    margin-bottom:-5px;
+}
+
+
+
+#mainNav {
+    /*height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;*/
+    font-family: 'Varela Round', sans-serif;
+    display:inline-block;
+}
+
+#mainNav ul /*העלמת התבליטים של הרשימה (הבולטים*/
+   {
+       list-style:none;
+   }
+
+
+#mainNav ul li /*קביעת מבנה התפריט (אנכי או אופקי)*/ {
+    display: inline-block;
+    float: right;
+   
+}
+
+    #mainNav ul li a /*עיצוב פרטי התפריט*/ {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        height: 30px;
+    }
+
+        #mainNav ul li a:hover 
+        {
+            background-color: white;
+            color:royalblue;
+            font-weight:bold;
+        }
+
+     #mainNav ul li a:active 
+        {
+            background-color: white;
+            color: dodgerblue;
+        }
+
+    #mainNav ul li ul
+    {
+        display: none;
+        position: absolute;
+    }
+
+    #mainNav ul li ul li a
+    {
+       
+        width:140px;
+    }
+
+
+    #mainNav ul li:hover > ul {
+        display: block;
+        width: 140px;
+        align-content: center;
+        padding-right: 0px;
+        margin:0px;
+        color:white;
+        background-color:royalblue;
+        font-weight:bold;
+    }
+
+    #mainNav ul li #logoNav
+    {
+        width: 190px;
+        padding-top: 0;
+    }
+
+        #mainNav ul li #logoNav:hover
+        {
+            background-color:none;
+            color:white;
+        }
+
+        #mainNav ul li #logoNav h1
+        {
+            margin-right: -82px;
+            padding-top: 16px;
+            margin-bottom: -11px;
+        }
+
+    #mainNav ul li a #logoNav h1:hover
+    {
+        background-color: none;
+        color: white;
+    }
+
+   #mainNav ul li  #logoNav p
+   {
+       margin-right:-75px;
+   }
+
+
+.na 
+{
+    cursor: not-allowed;
+    color: grey;
+    text-decoration:line-through;
+}
+
+#navheader 
+{
+    width:auto;
+    height:87px;
+    background-image: url('../images/new banner.jpg');
+}
+
+.class
+{
+    padding-top:45px;
+}
+
+#banner
+{
+    padding-top:45px;
+}
+
+
+    #mainFooter {
+    margin-right:auto;
+    height: 87px;
+    background-image: url('../images/new banner.jpg');
+    width: 960px;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    #mainFooter ul 
+    {
+        list-style: none;
+    }
+
+    #mainFooter ul li 
+    {
+            display: inline-block;
+            float: right;
+        }
+
+   #mainFooter ul li a 
+    {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: center;
+        width: 120px;
+        padding-top: 34px;
+    }
+    
+   .quick
+   {
+       text-decoration:none;
+       color:black;
+   }
